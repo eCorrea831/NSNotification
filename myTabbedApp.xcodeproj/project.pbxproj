@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8F75641D185BF2002998B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8F75631D185BF2002998B5 /* main.m */; };
+		AA8F75671D185BF2002998B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8F75661D185BF2002998B5 /* AppDelegate.m */; };
+		AA8F756A1D185BF2002998B5 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8F75691D185BF2002998B5 /* IntroViewController.m */; };
+		AA8F756D1D185BF2002998B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8F756B1D185BF2002998B5 /* Main.storyboard */; };
+		AA8F756F1D185BF2002998B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8F756E1D185BF2002998B5 /* Assets.xcassets */; };
+		AA8F75721D185BF2002998B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8F75701D185BF2002998B5 /* LaunchScreen.storyboard */; };
+		AA8F757C1D185C2F002998B5 /* AnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8F757A1D185C2F002998B5 /* AnimalViewController.m */; };
+		AA8F757D1D185C2F002998B5 /* AnimalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8F757B1D185C2F002998B5 /* AnimalViewController.xib */; };
+		AA8F75811D185C37002998B5 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8F757F1D185C37002998B5 /* ColorViewController.m */; };
+		AA8F75821D185C37002998B5 /* ColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8F75801D185C37002998B5 /* ColorViewController.xib */; };
+		AA8F75861D185C40002998B5 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8F75841D185C40002998B5 /* FoodViewController.m */; };
+		AA8F75871D185C40002998B5 /* FoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8F75851D185C40002998B5 /* FoodViewController.xib */; };
+		AA8F758F1D185E91002998B5 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8F758E1D185E91002998B5 /* IntroViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA8F755F1D185BF2002998B5 /* myTabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTabbedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8F75631D185BF2002998B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA8F75651D185BF2002998B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA8F75661D185BF2002998B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA8F75681D185BF2002998B5 /* IntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		AA8F75691D185BF2002998B5 /* IntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		AA8F756C1D185BF2002998B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8F756E1D185BF2002998B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8F75711D185BF2002998B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8F75731D185BF2002998B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8F75791D185C2F002998B5 /* AnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalViewController.h; sourceTree = "<group>"; };
+		AA8F757A1D185C2F002998B5 /* AnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalViewController.m; sourceTree = "<group>"; };
+		AA8F757B1D185C2F002998B5 /* AnimalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalViewController.xib; sourceTree = "<group>"; };
+		AA8F757E1D185C37002998B5 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		AA8F757F1D185C37002998B5 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		AA8F75801D185C37002998B5 /* ColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorViewController.xib; sourceTree = "<group>"; };
+		AA8F75831D185C40002998B5 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		AA8F75841D185C40002998B5 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		AA8F75851D185C40002998B5 /* FoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodViewController.xib; sourceTree = "<group>"; };
+		AA8F758E1D185E91002998B5 /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8F755C1D185BF2002998B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8F75561D185BF2002998B5 = {
+			isa = PBXGroup;
+			children = (
+				AA8F75611D185BF2002998B5 /* myTabbedApp */,
+				AA8F75601D185BF2002998B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8F75601D185BF2002998B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F755F1D185BF2002998B5 /* myTabbedApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8F75611D185BF2002998B5 /* myTabbedApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F75651D185BF2002998B5 /* AppDelegate.h */,
+				AA8F75661D185BF2002998B5 /* AppDelegate.m */,
+				AA8F758D1D185C54002998B5 /* Tabs */,
+				AA8F75621D185BF2002998B5 /* Supporting Files */,
+			);
+			path = myTabbedApp;
+			sourceTree = "<group>";
+		};
+		AA8F75621D185BF2002998B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F756B1D185BF2002998B5 /* Main.storyboard */,
+				AA8F756E1D185BF2002998B5 /* Assets.xcassets */,
+				AA8F75701D185BF2002998B5 /* LaunchScreen.storyboard */,
+				AA8F75731D185BF2002998B5 /* Info.plist */,
+				AA8F75631D185BF2002998B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA8F758D1D185C54002998B5 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F75681D185BF2002998B5 /* IntroViewController.h */,
+				AA8F75691D185BF2002998B5 /* IntroViewController.m */,
+				AA8F758E1D185E91002998B5 /* IntroViewController.xib */,
+				AA8F75791D185C2F002998B5 /* AnimalViewController.h */,
+				AA8F757A1D185C2F002998B5 /* AnimalViewController.m */,
+				AA8F757B1D185C2F002998B5 /* AnimalViewController.xib */,
+				AA8F757E1D185C37002998B5 /* ColorViewController.h */,
+				AA8F757F1D185C37002998B5 /* ColorViewController.m */,
+				AA8F75801D185C37002998B5 /* ColorViewController.xib */,
+				AA8F75831D185C40002998B5 /* FoodViewController.h */,
+				AA8F75841D185C40002998B5 /* FoodViewController.m */,
+				AA8F75851D185C40002998B5 /* FoodViewController.xib */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8F755E1D185BF2002998B5 /* myTabbedApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8F75761D185BF2002998B5 /* Build configuration list for PBXNativeTarget "myTabbedApp" */;
+			buildPhases = (
+				AA8F755B1D185BF2002998B5 /* Sources */,
+				AA8F755C1D185BF2002998B5 /* Frameworks */,
+				AA8F755D1D185BF2002998B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myTabbedApp;
+			productName = myTabbedApp;
+			productReference = AA8F755F1D185BF2002998B5 /* myTabbedApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8F75571D185BF2002998B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TurnToTech;
+				TargetAttributes = {
+					AA8F755E1D185BF2002998B5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AA8F755A1D185BF2002998B5 /* Build configuration list for PBXProject "myTabbedApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8F75561D185BF2002998B5;
+			productRefGroup = AA8F75601D185BF2002998B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8F755E1D185BF2002998B5 /* myTabbedApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8F755D1D185BF2002998B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8F75871D185C40002998B5 /* FoodViewController.xib in Resources */,
+				AA8F75721D185BF2002998B5 /* LaunchScreen.storyboard in Resources */,
+				AA8F758F1D185E91002998B5 /* IntroViewController.xib in Resources */,
+				AA8F756F1D185BF2002998B5 /* Assets.xcassets in Resources */,
+				AA8F757D1D185C2F002998B5 /* AnimalViewController.xib in Resources */,
+				AA8F75821D185C37002998B5 /* ColorViewController.xib in Resources */,
+				AA8F756D1D185BF2002998B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8F755B1D185BF2002998B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8F75861D185C40002998B5 /* FoodViewController.m in Sources */,
+				AA8F756A1D185BF2002998B5 /* IntroViewController.m in Sources */,
+				AA8F75811D185C37002998B5 /* ColorViewController.m in Sources */,
+				AA8F75671D185BF2002998B5 /* AppDelegate.m in Sources */,
+				AA8F757C1D185C2F002998B5 /* AnimalViewController.m in Sources */,
+				AA8F75641D185BF2002998B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA8F756B1D185BF2002998B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8F756C1D185BF2002998B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8F75701D185BF2002998B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8F75711D185BF2002998B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8F75741D185BF2002998B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8F75751D185BF2002998B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8F75771D185BF2002998B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myTabbedApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TurnToTech.myTabbedApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA8F75781D185BF2002998B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myTabbedApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TurnToTech.myTabbedApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8F755A1D185BF2002998B5 /* Build configuration list for PBXProject "myTabbedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8F75741D185BF2002998B5 /* Debug */,
+				AA8F75751D185BF2002998B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8F75761D185BF2002998B5 /* Build configuration list for PBXNativeTarget "myTabbedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8F75771D185BF2002998B5 /* Debug */,
+				AA8F75781D185BF2002998B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8F75571D185BF2002998B5 /* Project object */;
+}
