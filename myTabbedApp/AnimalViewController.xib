@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnimalViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OR-Wj-8DL">
+                    <rect key="frame" x="107" y="146" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="7x1-bn-ufK"/>
+                        <constraint firstAttribute="height" constant="100" id="VP2-Gp-vVz"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="leopard"/>
+                    <connections>
+                        <action selector="leopardButtonClicked:" destination="-1" eventType="touchUpInside" id="zed-XF-Hks"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsF-kQ-15n">
+                    <rect key="frame" x="251" y="146" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="LWl-ds-oXX"/>
+                        <constraint firstAttribute="width" constant="100" id="bgI-5c-P5X"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="tucan"/>
+                    <connections>
+                        <action selector="tucanButtonClicked:" destination="-1" eventType="touchUpInside" id="QyV-vP-ZcI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LId-nP-Yph">
+                    <rect key="frame" x="392" y="146" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="NyW-Pa-JfH"/>
+                        <constraint firstAttribute="height" constant="100" id="vGH-dR-tZV"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="seahorse"/>
+                    <connections>
+                        <action selector="seahorseButtonClicked:" destination="-1" eventType="touchUpInside" id="neE-I6-sKg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiC-EW-7Lr">
+                    <rect key="frame" x="107" y="298" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="k1p-tc-msv"/>
+                        <constraint firstAttribute="height" constant="100" id="sLk-2f-6ML"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="monkey"/>
+                    <connections>
+                        <action selector="monkeyButtonClicked:" destination="-1" eventType="touchUpInside" id="PdK-Qx-hhq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bI3-On-0hW">
+                    <rect key="frame" x="250" y="298" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Saq-dv-Yna"/>
+                        <constraint firstAttribute="height" constant="100" id="cwx-Wk-boh"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="elephant"/>
+                    <connections>
+                        <action selector="elephantButtonClicked:" destination="-1" eventType="touchUpInside" id="cx2-u1-mGo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KW1-Is-6gn">
+                    <rect key="frame" x="392" y="298" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="FSo-UK-CWf"/>
+                        <constraint firstAttribute="height" constant="100" id="ZSz-W6-tX5"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="puppy"/>
+                    <connections>
+                        <action selector="puppyButtonClicked:" destination="-1" eventType="touchUpInside" id="nua-xf-5bH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeZ-lG-qc9">
+                    <rect key="frame" x="107" y="454" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="1To-MR-eF5"/>
+                        <constraint firstAttribute="width" constant="100" id="l0G-DJ-2M6"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="kitten"/>
+                    <connections>
+                        <action selector="kittenButtonClicked:" destination="-1" eventType="touchUpInside" id="g1x-hm-zfR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ur7-Mx-xvT">
+                    <rect key="frame" x="251" y="454" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="JuK-eI-6Sh"/>
+                        <constraint firstAttribute="height" constant="100" id="j70-aU-Jwi"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="turtle"/>
+                    <connections>
+                        <action selector="turtleButtonClicked:" destination="-1" eventType="touchUpInside" id="Qmw-ri-Wkb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xar-u3-4cU">
+                    <rect key="frame" x="392" y="454" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="du0-iy-FYB"/>
+                        <constraint firstAttribute="width" constant="100" id="qgI-tS-gnr"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="giraffe"/>
+                    <connections>
+                        <action selector="giraffeButtonClicked:" destination="-1" eventType="touchUpInside" id="fDf-wX-Bwi"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on your favorite animal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnR-mf-3EP">
+                    <rect key="frame" x="166" y="73" width="272" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.69756639495682449" blue="0.74918454129809908" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Ur7-Mx-xvT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="1" id="4ZC-3c-M9q"/>
+                <constraint firstItem="bI3-On-0hW" firstAttribute="leading" secondItem="DiC-EW-7Lr" secondAttribute="trailing" constant="43" id="4bc-JG-doR"/>
+                <constraint firstItem="bI3-On-0hW" firstAttribute="top" secondItem="KW1-Is-6gn" secondAttribute="top" id="7KM-FL-lol"/>
+                <constraint firstItem="Ur7-Mx-xvT" firstAttribute="top" secondItem="AeZ-lG-qc9" secondAttribute="top" id="7jt-Cm-naH"/>
+                <constraint firstItem="wsF-kQ-15n" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="1" id="9gr-1s-8UK"/>
+                <constraint firstItem="wsF-kQ-15n" firstAttribute="top" secondItem="9OR-Wj-8DL" secondAttribute="top" id="9w7-xJ-hX0"/>
+                <constraint firstItem="hnR-mf-3EP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="73" id="GRe-Sm-jhl"/>
+                <constraint firstItem="bI3-On-0hW" firstAttribute="top" secondItem="wsF-kQ-15n" secondAttribute="bottom" constant="52" id="IPI-vX-Swk"/>
+                <constraint firstItem="Ur7-Mx-xvT" firstAttribute="leading" secondItem="AeZ-lG-qc9" secondAttribute="trailing" constant="44" id="JXJ-ai-gSy"/>
+                <constraint firstItem="wsF-kQ-15n" firstAttribute="leading" secondItem="9OR-Wj-8DL" secondAttribute="trailing" constant="44" id="c8C-rd-DY4"/>
+                <constraint firstItem="bI3-On-0hW" firstAttribute="top" secondItem="DiC-EW-7Lr" secondAttribute="top" id="hHV-6w-Xz8"/>
+                <constraint firstItem="Ur7-Mx-xvT" firstAttribute="top" secondItem="Xar-u3-4cU" secondAttribute="top" id="hQU-Tf-kU8"/>
+                <constraint firstItem="LId-nP-Yph" firstAttribute="leading" secondItem="wsF-kQ-15n" secondAttribute="trailing" constant="41" id="hyY-kd-cB2"/>
+                <constraint firstItem="Ur7-Mx-xvT" firstAttribute="top" secondItem="bI3-On-0hW" secondAttribute="bottom" constant="56" id="iTY-MC-Pc5"/>
+                <constraint firstItem="bI3-On-0hW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kh9-Jg-p1w"/>
+                <constraint firstItem="Xar-u3-4cU" firstAttribute="leading" secondItem="Ur7-Mx-xvT" secondAttribute="trailing" constant="41" id="onQ-s3-1Gv"/>
+                <constraint firstItem="wsF-kQ-15n" firstAttribute="top" secondItem="LId-nP-Yph" secondAttribute="top" id="qgn-IK-eAd"/>
+                <constraint firstItem="hnR-mf-3EP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="1.5" id="qhx-xZ-sXD"/>
+                <constraint firstItem="wsF-kQ-15n" firstAttribute="top" secondItem="hnR-mf-3EP" secondAttribute="bottom" constant="49" id="sAV-tQ-C9C"/>
+                <constraint firstItem="KW1-Is-6gn" firstAttribute="leading" secondItem="bI3-On-0hW" secondAttribute="trailing" constant="42" id="xzw-De-hQw"/>
+            </constraints>
+            <point key="canvasLocation" x="-7" y="305"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="elephant" width="100" height="100"/>
+        <image name="giraffe" width="100" height="100"/>
+        <image name="kitten" width="100" height="100"/>
+        <image name="leopard" width="100" height="99"/>
+        <image name="monkey" width="100" height="100"/>
+        <image name="puppy" width="100" height="100"/>
+        <image name="seahorse" width="100" height="98"/>
+        <image name="tucan" width="100" height="100"/>
+        <image name="turtle" width="100" height="100"/>
+    </resources>
+</document>
