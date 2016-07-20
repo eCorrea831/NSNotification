@@ -33,47 +33,47 @@
 }
 
 - (IBAction)leopardButtonClicked:(id)sender {
-    self.favoriteAnimal = @"leopard";
+    self.favoriteAnimal = @"leopards";
     [self printFavoriteAnimal];
 }
 
 - (IBAction)tucanButtonClicked:(id)sender {
-    self.favoriteAnimal = @"tucan";
+    self.favoriteAnimal = @"tucans";
     [self printFavoriteAnimal];
 }
 
 - (IBAction)seahorseButtonClicked:(id)sender {
-    self.favoriteAnimal = @"seahorse";
+    self.favoriteAnimal = @"seahorses";
     [self printFavoriteAnimal];
 }
 
 - (IBAction)monkeyButtonClicked:(id)sender {
-    self.favoriteAnimal = @"monkey";
+    self.favoriteAnimal = @"monkeys";
     [self printFavoriteAnimal];
 }
 
 - (IBAction)elephantButtonClicked:(id)sender {
-    self.favoriteAnimal = @"elephant";
+    self.favoriteAnimal = @"elephants";
     [self printFavoriteAnimal];
 }
 
 - (IBAction)puppyButtonClicked:(id)sender {
-    self.favoriteAnimal = @"puppy";
+    self.favoriteAnimal = @"puppies";
     [self printFavoriteAnimal];
 }
 
 - (IBAction)kittenButtonClicked:(id)sender {
-    self.favoriteAnimal = @"kitten";
+    self.favoriteAnimal = @"kittens";
     [self printFavoriteAnimal];
 }
 
 - (IBAction)turtleButtonClicked:(id)sender {
-    self.favoriteAnimal = @"turtle";
+    self.favoriteAnimal = @"turtles";
     [self printFavoriteAnimal];
 }
 
 - (IBAction)giraffeButtonClicked:(id)sender {
-    self.favoriteAnimal = @"giraffe";
+    self.favoriteAnimal = @"giraffes";
     [self printFavoriteAnimal];
 }
 

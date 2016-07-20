@@ -37,7 +37,7 @@
 }
 
 - (IBAction)burgerButtonClicked:(id)sender {
-    self.favoriteFood = @"burger";
+    self.favoriteFood = @"burgers";
     [self printFavoriteFood];
 }
 
@@ -67,7 +67,7 @@
 }
 
 - (IBAction)empanadaButtonClicked:(id)sender {
-     self.favoriteFood = @"empanada";
+     self.favoriteFood = @"empanadas";
     [self printFavoriteFood];
 }
 
