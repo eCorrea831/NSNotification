@@ -19,7 +19,7 @@
     if (self) {
         self.title = NSLocalizedString(@"Welcome", @"Welcome");
         UIImage * image = [UIImage imageNamed:@"intro"];
-        [image drawInRect:CGRectMake(0, 0, 10, 10)];
+        [image drawInRect:CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y, 10, 10)];
         self.tabBarItem.image = image;
     }
     
