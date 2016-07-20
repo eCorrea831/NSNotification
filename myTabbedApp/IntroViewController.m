@@ -52,6 +52,7 @@
     self.userName = self.userNameTextField.text;
     self.welcomeTextView.hidden = NO;
     self.welcomeTextView.text = [NSString stringWithFormat:@"Welcome, %@. Let's find out your favorites! Click on the different tabs to pick your favorites then come back here to see your results.", self.userName];
+     [self.view endEditing:YES];
 }
 
 - (void)receiveNotification:(NSNotification *)notifiation {

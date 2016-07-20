@@ -10,8 +10,6 @@
 
 @interface IntroViewController : UIViewController
 
-//test
-
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (weak, nonatomic) IBOutlet UITextView *welcomeTextView;
 @property (weak, nonatomic) IBOutlet UILabel *favoriteAnimalLabel;
